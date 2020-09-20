@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+body {
+  color: #3F434A;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.site-title {
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.top {
+  position: relative;
+  text-align: right;
+  height: 977px;
+  background-color: #D2CECE;
+}
+
+.img-main {
+  width: auto;
+}
+
+.title-main {
+  position: absolute;
+  top: 118px;
+  left: 30px;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+}
+
+.des-main {
+  position: absolute;
+  top: 379px;
+  left: 30px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+}
+
+.about1 {
+  width: 100%;
+  margin: 30px auto;
+  background-color: #fff;
+}
+
+.title-about1 {
+  margin: 60px auto;
+  top: 198px;
+  left: 750px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-about1 {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wrapper-about1 {
+  margin: 0 auto ;
+}
+
+.img-about1 {
+  max-width: 220px;
+}
+
+.desc-about1 {
+  max-width: 220px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.about2 {
+  text-align: center;
+  width: 100%;
+  max-height: auto;
+  padding: 30px 90px 30px;
+  background-color: #EAD5DC;
+}
+
+.title-about2 {
+  margin: 60px auto;
+  width: 300px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.wrapper-about2 {
+  display: inline-block;
+  margin: 30px auto;
+  text-align: right;
+}
+
+.img-friend {
+  padding: 0 30px 0;
+}
+
+.about3 {
+  text-align: center;
+  width: 100%;
+  max-height: auto;
+  padding: 30px 90px 30px;
+  background-color: #F5F5F5;
+}
+
+.title-about3 {
+  margin: 60px auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container-about3 {
+  display: flex;
+}
+
+.wrapper-about3 {
+  margin: 30px auto ;
+}
+
+.img-about3 {
+  width: 220px;
+}
+
+.desc-about3 {
+  max-width: 220px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.channel {
+  width: 100%;
+  height: 1687px;
+  background-color: #fff;
+}
+
+.title-channel {
+ text-align: center;
+ padding-top: 60px;
+ font-size: 24px;
+}
+
+.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 90px 188px 60px 188px;
+  background-color: #fff;
+}
+
+.channel-box {
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.image {
+  margin-bottom: 25px;
+}
+
+.title {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.desc {
+  max-width: 300px;
+  height: 110px;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.channel-box:nth-of-type(odd) {
+  float: left;
+}
+
+.channel-box:nth-of-type(even) {
+  float: right;
+}
+
+.conversion {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.wrapper-footer {
+  margin: 60px;
+}
+
+.appli-image {
+  padding-bottom: 30px;
+}
+
+.title-footer {
+  font-size: 24px;
+}
+
+.store {
+  max-width: 80%;
+}
+
+footer {
+  margin: 5px auto;
+  text-align: center;
+  background-color: #fff;
+}
+
+.copyright {
+  font-size: 14px
+}
